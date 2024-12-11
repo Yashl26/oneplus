@@ -1,0 +1,101 @@
+body {
+  background-color: #f3f3f3 !important;
+}
+
+nav {
+  background-color: white !important;
+  z-index: 100;
+}
+
+nav img {
+  fill: red;
+  width: 8rem;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("images/hero-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.warpCharge {
+    height: 100vh;
+    background-image: url('images/warpCharge.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.warpCharge div {
+    width: 35%;
+    margin-left: 150px;
+}
+
+.features {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.features .details {
+  width: 50vw;
+  text-align: center;
+}
+
+.features .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.bassEngineer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
+
+.bassEngineer .bassDetail{
+  width: 35%;
+
+}
+
+.bassEngineer img {
+  width: 100vw;
+}
+
+.compareSection {
+  height: auto;
+  padding: 3rem 0;
+}
+
+.compareSection img {
+  width: 100%;
+}
+
+.priceSection .card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.priceSection .card:first-child:hover{
+  scale: 1.1;
+  border: 2px solid black;
+}
+
+.priceSection .card:last-child:hover{
+  scale: 1.1;
+  border: 2px solid red;
+}

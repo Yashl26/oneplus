@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnePlus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img src="images/logo.svg" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#order">Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <div class="container">
+        <h1>OnePlus Bullets Wireless Z Series</h1>
+        <br />
+        <p>World's most trusted brand.</p>
+      </div>
+    </div>
+
+    <div class="warpCharge" id="features">
+      <div>
+        <h2>A 10 minute charge for 10 hours of music</h2>
+        <br />
+        <p>
+          Your Bullets Wireless Z series headphones are ready before you are. A
+          single 10 minute charge gives you 10 hours of music and movies4. A
+          full charge provides up to 20 / 17 hours1 of battery life, so you can
+          keep the music going.
+        </p>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="details">
+        <h2>Easy listening</h2>
+        <br />
+        <h5>
+          Easy listening With convenient features like Quick Switch13, Quick
+          Pair6 and Magnetic Control, listening to your music has never been
+          this simple.
+        </h5>
+        <br />
+        <p>
+          *Quick Switch feature on Bass Edition behaves differently. Instead of
+          a physical function button, users will be able to switch between 3
+          paired devices instantly by selecting Bass Edition among Bluetooth
+          settings on said paired devices.
+        </p>
+      </div>
+
+      <div class="cardsContainer">
+        <div class="card" style="width: 18rem">
+          <img src="images/tapToConnect.jpeg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text">Tap to connect</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="images/switchDevices.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text">Switch between devices</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="images/pressPlay.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text">Press play with Magnetic Control</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="images/freedomMOve.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text">Freedom to move</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bassEngineer">
+      <div class="bassDetail">
+        <h2>Bass Re-engineered</h2>
+        <br />
+        <p>
+          With a 9.2mm dynamic driver and super bass tone fitted in each earbud,
+          you get to experience rich sound and superior tonality every time you
+          press play.
+        </p>
+      </div>
+
+      <img src="images/MusicEars.jpg" alt="" />
+    </div>
+
+    <div class="compareSection">
+      <img src="images/compare1.jpg" alt="" />
+    </div>
+
+    <div class="priceSection d-flex flex-column pb-5 gap-5" id="pricing">
+      <h1 class="text-center">PRICING</h1>
+      <div class="container d-flex justify-content-center gap-4">
+        <div class="card" style="width: 18rem">
+          <img src="images/black.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text text-center">MRP. ₹ 2299/-</h5>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="images/red.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-text text-center">MRP. ₹ 2499/-</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="order py-5" id="order"> 
+      <h1 class="text-center">BUY NOW</h1>
+      <div class="container w-50 mt-5">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName" required/>
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="inputTel" required>
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" required/>
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" required>
+              <option>Andhra Pradesh</option>
+              <option>Arunachal Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chhattisgarh</option>
+              <option>Goa</option>
+              <option>Gujarat</option>
+              <option>Haryana</option>
+              <option>Himachal Pradesh</option>
+              <option>Jharkhand</option>
+              <option>Karnataka</option>
+              <option>Kerala</option>
+              <option>Madhya Pradesh</option>
+              <option>Maharashtra</option>
+              <option>Manipur</option>
+              <option>Meghalaya</option>
+              <option>Mizoram</option>
+              <option>Nagaland</option>
+              <option>Odisha</option>
+              <option>Punjab</option>
+              <option>Rajasthan</option>
+              <option>Sikkim</option>
+              <option>Tamil Nadu</option>
+              <option>Telangana</option>
+              <option>Tripura</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttarakhand</option>
+              <option>West Bengal</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputZip" class="form-label">PIN Code</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">BUY NOW</button>
+            <button type="reset" class="btn btn-primary">RESET</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer
+      class="bg-dark p-4 text-white d-flex align-items-center justify-content-center"
+    >
+      <p class="m-0">© 2013 - 2024 OnePlus. All Rights Reserved.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
